@@ -1,3 +1,10 @@
 body{
-
+ color:white;
+ text-align: justify;
+ font: 1.75em verana,arial, 'san-serif';
+ background-image: url("espacio.jpeg") ;
+ background-repeat:round;
+ margin: 10px
 }
+h1{color:lightyellow;
+font: 300%}
