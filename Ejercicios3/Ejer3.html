@@ -4,16 +4,29 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Untitled Document</title>
     <style title="text/css">
-        del{color: blue}
-        ins{color: chartreuse; text-decoration: underline}
+        p{
+            font: 1em arial, helvetica, san-serif;
+            width: 1000px;
+        }
+        del{color: blue;  font-size: 40px; vertical-align:-0.75em }
+        ins{color: chartreuse;  vertical-align: super; font-size: 20px;}
+        #va{vertical-align: inherit; font-size: 40px}
+        .dos{vertical-align: -0.5em}
+        .cero{
+            font-size: 0.75em;
+            vertical-align: text-top
+        }
+        .uno{
+            font-size: 0.75em;
+            vertical-align:top;
+        }
 
     </style>
 </head>
 <body>
 
-    <p>Mi color favorito es el <del>azul</del> <ins>verde</ins>!</p>
-    <p>Hay que tener en cuenta que los navegadres tachan el texto marcado con <br>
-    <del>del</del> (del) y subrayan el marcado con <ins>ins</ins>.</p>
+    <p id="va">Mi color favorito es el <del>azul</del> <ins>verde</ins>!</p>
+    <p><span class="cero">Hay que </span>tener en cuenta que<span class="uno"> los navegadores</span> tachan <span class="dos">el texto</span> marcado con <br> <del>del</del> (del) y subrayan el marcado con <ins>ins</ins>.</p>
 
 
 
