@@ -1,10 +1,35 @@
 body{
     color:black;
-    background-color: beige
+    background-color: beige;
+    font-family: sans-serif;
 }
-h1{text-align: center;
-color:blue;
-background-color: aqua}
-h3{color: blue;
-background-color: aqua}
-em{background-color:darkorchid }
+h1{
+    text-align: center;
+    color:blue;
+    background-color: aqua;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+h3{
+    color: blue;
+    background-color: aqua;
+    font-size: 125%
+}
+p{
+    text-align: justify;
+    font-size: 2em;
+    margin-left: 2em;
+    margin-right: 2em
+}
+strong,em{
+    background-color:darkorchid
+}
+.importante {
+    background-color: #C2C2CB;
+    color:green;
+    font-size: 150%
+}
+abbr{
+    text-decoration: underline
+
+}
