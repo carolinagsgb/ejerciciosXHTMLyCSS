@@ -1,0 +1,19 @@
+a:hover img.enlace{
+    border:5px solid blue;
+    width:240px;
+    height: 90px;
+}
+img {
+    width:120px;
+    height: 45px;
+    border: none;
+}
+h1{
+    background-color: #007600;
+    color:#ffffff;
+}
+a:visited img.enlace {
+    width: 120px;
+    height: 45;
+    border: 5px solid red;
+}
