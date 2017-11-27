@@ -1,0 +1,27 @@
+h1, strong {
+    color:blue;
+    font-size: 1.5em
+}
+a{
+    color:blue;
+    font-weight: bold;
+    text-decoration: none
+}
+.subrayado {
+    text-decoration: underline;
+}
+abbr{
+    color:blue;
+}
+
+.rojo{
+    font-weight: bold;
+    color:red
+}
+p{
+    color: green;
+    background-color: #e8e8e8;
+}
+body{
+    font:   arial, 'san-serif';
+}
