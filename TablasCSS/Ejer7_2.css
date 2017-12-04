@@ -1,0 +1,16 @@
+.collapse{
+    border: 1px solid blue;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+.black {
+    border: 1px solid black;
+    padding: 5px
+}
+.separate{
+    border: 1px solid red;
+    border-collapse: separate;
+    border-spacing:  2px 20px;
+    /**border-left: 1px;
+    border-right: 1px **/
+}

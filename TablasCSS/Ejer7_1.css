@@ -1,0 +1,13 @@
+.collapse{
+    border-collapse: collapse;
+    border: 2px solid red;
+}
+
+.black{
+    padding: 5px;
+    border: 1px solid black;
+}
+.separado{
+    border-collapse: separate;
+    border: 2px solid green;
+}
