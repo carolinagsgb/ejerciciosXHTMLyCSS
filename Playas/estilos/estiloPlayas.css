@@ -1,0 +1,12 @@
+body{
+   margin: 25px 50px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.cuadrado{
+    width: 600px;
+    height: 600px;
+    border: 1px solid red;
+
+}
