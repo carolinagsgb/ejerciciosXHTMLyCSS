@@ -43,8 +43,8 @@ a:active{
     background-color: aqua;
 }
 img{
-    width: 80%;
-    height: 60p%;
+    width: 600px;
+    height: 300px;
     /*margin-left: 350px;*/
     margin: auto;
     display: block;
