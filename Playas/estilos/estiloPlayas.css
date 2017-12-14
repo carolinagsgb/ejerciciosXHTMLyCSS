@@ -45,7 +45,8 @@ a:active{
 img{
     width: 400px;
     height: 200px;
-    margin:  auto;
+    /*margin-left: 350px;*/
+    margin: auto;
     display: block;
 }
 table{
