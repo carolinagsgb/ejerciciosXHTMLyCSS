@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Untitled Document</title>
+</head>
+<body>
+
+    <h1>Datos de cliente</h1>
+
+    <form action="#" method="get">
+     <p>
+         <label for="nombre">Nombre:</label>
+         <input type="text" id="nombre" name="nombre"/>
+         <br/>
+         <label for="NIF">NIF:</label>
+         <input type="text" id="NIF" name="NIF"/>
+
+    </p>
+
+    <p>
+        <span class="etiqueta">Tipo de Habitación:</span>
+        <br/>
+        <input type="radio" name="tipo" value="I" />Individual
+        <input type="radio" name="tipo" value="D" checked="checked" />Doble
+        <br/>
+    </p>
+
+
+    <p>
+        <span class="etiqueta">Opciones:</span>
+        <br/>
+        <input type="checkbox" name="desayuno" value="DH" id="desayuno"/>
+        <label for="desayuno">Desayuno en la habitación</label>
+
+        <br/>
+        <input type="checkbox" name="jacuzzi" value="JZ" id="jacuzzi"/>
+        <label for="jacuzzi">Jacuzzi</label>
+
+        <br/>
+        <input type="checkbox" name="wi-fi" value="WF" id="wi-fi"/>
+        <label for="wi-fi">Wi-Fi</label>
+
+    </p>
+
+    <p>
+        <input type="reset" value="Borrar"/>
+        <input type="submit" value="Enviar"/>
+    </p>
+
+    </form>
+</body>
+</html>
