@@ -13,14 +13,17 @@
     <form action="#" method="post">
 
         <fieldset>
-            <legend>Datos personales</legend>
-            <table>
-                <tbody>
 
+
+            <table>
+                <thead><legend>Datos personales</legend></thead>
+                <tbody>
+   <tr>
+      <td>
             <label for="age"> Edad </label>
-            <input type="text" id="age" name="age" size=10/>
-    <tr>
-        <td>
+            <input type="text" id="age" name="age" size=4/>
+       </td>
+      <td>
             <label for="num">Habitantes en la casa</label>
             <select id="num" name="name">
             <option value="1" selected="selected">1</option>
@@ -36,9 +39,9 @@
 
     <tr>
         <td><span class="pregunta">Sexo:</span>
-            <intput type="radio" name="nteles" value="F" />Mujer
-            <intput type="radio" name="nteles" value="M" />Hombre
-
+            <input type="radio" name="nteles" value="F" />Mujer
+            <input type="radio" name="nteles" value="M" />Hombre
+        </td>
             <td colspan="2">
             <pan class="pregunta">Televisores den la casa</pan>
             <input type="radio" name="nteles" value="0" />0
