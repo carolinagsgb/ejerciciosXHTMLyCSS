@@ -1,0 +1,51 @@
+body {
+    background-color: #d3d3d3;
+    color:#808085;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+blockquote{
+    font-family: verdana;
+    font-size: 1.24em;
+}
+p{
+    text-align: center
+}
+cite{
+    font-family: "informal roman", "times new roman", serif;
+    font-size: 1.5em;
+}
+div{
+    margin: 20px;
+    padding: 10px;
+}
+.cita1, .cita5{
+    background-color:aqua;
+    border-style:dashed;
+    border-color: #32403f;
+    color:#32403f;
+
+}
+.cita2{
+    background-color:cornflowerblue;
+    border-style:double;
+    border-color: black;
+    color: black;
+}
+.cita3, .cita6{
+    background-color:palevioletred;
+    border-style:groove;
+
+}
+.cita4{
+    background-color:blueviolet;
+    border-style:dotted ;
+    border-color: crimson;
+    color:white
+
+
+}
